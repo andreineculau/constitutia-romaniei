@@ -1,0 +1,188 @@
+#github.com
+safe: true
+lsi: false
+pygments: true
+source: "."
+destination: ./_site
+
+#others
+auto: true
+server: true
+server_port: 4000
+baseurl: &base_url /constitutia-romaniei
+base_url: *base_url
+#url: http://localhost:4000
+
+#plugins: ./_plugins
+
+future: false
+markdown: maruku
+permalink: date
+#paginate:
+#exclude:
+#include:
+#limit_posts:
+
+maruku:
+  use_tex: false
+  use_divs: false
+  png_engine: blahtex
+  png_dir: images/latex
+  png_url: /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+#theme
+name: Constituția României
+description: întotdeauna pe stil nou
+repo: constitutia-romaniei
+author: &github_author andreineculau
+authors:
+  andreineculau:
+    display_name: Andrei Neculau
+    gravatar: a990f5b18007f1a360ebd163626fe3f4
+    email:
+    url: "http://andreineculau.com"
+    twitter: andreineculau
+    github: *github_author
+#theme.tools
+annotator: null
+#theme.sidebar
+sidebar: null
+sidebars:
+  -
+    title: 2003
+    url: /2003.html
+    headers:
+      -
+        title: "Titlul I: Principii generale"
+        url: /2003/titlul_1.html
+      - title: "Titlul II: Drepturile, libertățile și îndatoririle fundamentale"
+        items:
+          -
+            title: "Capitolul I: Dispoziții comune"
+            url: /2003/titlul_2.capitolul_1.html
+          -
+            title: "Capitolul II: Drepturile și libertățile fundamentale"
+            url: /2003/titlul_2.capitolul_2.html
+          -
+            title: "Capitolul III: Îndatoririle fundamentale"
+            url: /2003/titlul_2.capitolul_3.html
+          -
+            title: "Capitolul IV: Avocatul Poporului"
+            url: /2003/titlul_2.capitolul_4.html
+      - title: "Titlul III: Autoritățile publice"
+        items:
+          -
+            title: "Capitolul I: Parlament"
+            url: /2003/titlul_3.capitolul_1.html
+          -
+            title: "Capitolul II: Președintele României"
+            url: /2003/titlul_3.capitolul_2.html
+          -
+            title: "Capitolul III: Guvernul"
+            url: /2003/titlul_3.capitolul_3.html
+          -
+            title: "Capitolul IV: Raporturile Parlamentului cu Guvernul"
+            url: /2003/titlul_3.capitolul_4.html
+          -
+            title: "Capitolul V: Administrația publică"
+            url: /2003/titlul_3.capitolul_5.html
+          -
+            title: "Capitolul VI: Autoritatea judecătorească"
+            url: /2003/titlul_3.capitolul_6.html
+      -
+        title: "Titlul IV: Economia și finanțele publice"
+        url: /2003/titlul_4.html
+      -
+        title: "Titlul V: Curtea Constituțională"
+        url: /2003/titlul_5.html
+      -
+        title: "Titlul VI: Integrarea euroatlantică"
+        url: /2003/titlul_6.html
+      -
+        title: "Titlul VII: Revizuirea Constituției"
+        url: /2003/titlul_7.html
+      -
+        title: "Titlul VIII: Dispoziții finale și tranzitorii"
+        url: /2003/titlul_8.html
+  -
+    title: develop
+    url: /develop.html
+    headers:
+      -
+        title: "Titlul I: Principii generale"
+        url: /develop/titlul_1.html
+      - title: "Titlul II: Drepturile, libertățile și îndatoririle fundamentale"
+        items:
+          -
+            title: "Capitolul I: Dispoziții comune"
+            url: /develop/titlul_2.capitolul_1.html
+          -
+            title: "Capitolul II: Drepturile și libertățile fundamentale"
+            url: /develop/titlul_2.capitolul_2.html
+          -
+            title: "Capitolul III: Îndatoririle fundamentale"
+            url: /develop/titlul_2.capitolul_3.html
+          -
+            title: "Capitolul IV: Avocatul Poporului"
+            url: /develop/titlul_2.capitolul_4.html
+      - title: "Titlul III: Autoritățile publice"
+        items:
+          -
+            title: "Capitolul I: Parlament"
+            url: /develop/titlul_3.capitolul_1.html
+          -
+            title: "Capitolul II: Președintele României"
+            url: /develop/titlul_3.capitolul_2.html
+          -
+            title: "Capitolul III: Guvernul"
+            url: /develop/titlul_3.capitolul_3.html
+          -
+            title: "Capitolul IV: Raporturile Parlamentului cu Guvernul"
+            url: /develop/titlul_3.capitolul_4.html
+          -
+            title: "Capitolul V: Administrația publică"
+            url: /develop/titlul_3.capitolul_5.html
+          -
+            title: "Capitolul VI: Autoritatea judecătorească"
+            url: /develop/titlul_3.capitolul_6.html
+      -
+        title: "Titlul IV: Economia și finanțele publice"
+        url: /develop/titlul_4.html
+      -
+        title: "Titlul V: Curtea Constituțională"
+        url: /develop/titlul_5.html
+      -
+        title: "Titlul VI: Integrarea euroatlantică"
+        url: /develop/titlul_6.html
+      -
+        title: "Titlul VII: Revizuirea Constituției"
+        url: /develop/titlul_7.html
+      -
+        title: "Titlul VIII: Dispoziții finale și tranzitorii"
+        url: /develop/titlul_8.html
+#theme.text
+text:
+  index: index
+  downloadZipFile: Download ZIP File
+  downloadTarBall: Download TAR Ball
+  forkMeOnGitHub: Fork me on <strong>GitHub</strong>
+  maintainedBy: proiect inițiat de
+  contact: contact
