@@ -18,7 +18,7 @@ title: Constituția României
 * pentru îmbunătățire, eventual
 * pentru că se poate, dacă se vrea
 * pentru că măcar unele *mici* modificări se vor făcute (vezi [Referendum 2009][])
-* pentru că România și românii au o constituție și o democrație care încă dă bătăi de cap, și aș vrea măcar să înțeleg cât de greu e să nu lași nimic spre a fi citit în spiritul legii, ci totul spre a fi citit în litera ei (vezi
+* pentru că România și românii au o constituție și o democrație care încă dă bătăi de cap (vezi
 The Economist
 [1](http://www.economist.com/node/21558575)
 [2](http://www.economist.com/node/21558624)
@@ -48,13 +48,14 @@ Le Figaro
 [2](http://www.lefigaro.fr/international/2012/07/06/01003-20120706ARTFIG00746-le-parlement-roumain-vote-la-destitution-du-president.php)
 [3](http://www.lefigaro.fr/international/2012/07/06/01003-20120706ARTFIG00579-roumanie-coup-de-force-contre-le-president.php),
 și multe, multe altele)
-* pentru că ar trebui să o înțelegem, și să o dăm uitării
-    <iframe src="http://player.vimeo.com/video/45768176" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-* *uite-așa, numa' de-al dracu'*
+* pentru că aș vrea măcar să înțeleg cât e de greu, nici amator fiind, să nu lași nimic spre a fi citit în spiritul legii, ci totul spre a fi citit în litera ei
+* pentru că ar trebui să fie înțeleasă, și dată uitării, sau altfel se stă pe loc îndefinit
+<iframe src="http://player.vimeo.com/video/45768176" width="500" height="375" frameborder="0" webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true">&nbsp;</iframe>
+* și nu în ultimul rând: *uite-așa, numa' de-a' dracu'*
 
 ## Feedback
 
-* dacă ai ceva de spus, [ridică o problemă](https://github.com/andreineculau/constitutia-romaniei/issues/new)(*GitHub Issue*) cu referință la un paragraf al constituției (titlu, capitol, secțiune, articol sau alineat) și o posibilă îmbunătățire
+* dacă ai ceva de spus, [ridică o problemă](https://github.com/andreineculau/constitutia-romaniei/issues/new) (*GitHub Issue*) cu referință la un paragraf al constituției (titlu, capitol, secțiune, articol sau alineat) și o posibilă îmbunătățire
 * dacă ai doar de comentat, în mod public sau privat, și ai un cont [AnnotateIt][], în [ramura *develop*](http://andreineculau.github.com/constitutia-romaniei/develop.html) - poți selecta un text și adăuga un comentariu aferent selecției
 * dacă ai bunăvoința necesară, [fork](https://github.com/andreineculau/constitutia-romaniei/fork_select) & pull request (vezi [GitHub](https://help.github.com/articles/using-pull-requests/))
 
