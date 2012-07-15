@@ -7,8 +7,15 @@
 
     // FOOTER
     $('.btn-group .btn[data-href]:not(.disabled)').on('click', function() {
-        var $this = $(this);
-        window.location = $this.data('href');
+        var $this = $(this),
+        href = $this.data('href'),
+        target = $this.data('target') || '_blank';
+
+        if (target === '_self') {
+            window.location = href;
+        } else {
+            window.open(href, target);
+        }
     }).each(function() {
         var $this = $(this);
 
