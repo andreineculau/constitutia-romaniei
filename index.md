@@ -23,7 +23,7 @@ title: Constituția României
 ## Feedback
 
 * dacă ai ceva de spus, [ridică o problemă](https://github.com/andreineculau/constitutia-romaniei/issues/new)(*GitHub Issue*) cu referință la un paragraf al constituției (titlu, capitol, secțiune, articol sau alineat) și o posibilă îmbunătățire
-* dacă ai doar de comentat, în mod public sau privat, și ai un cont [AnnotateIt][], în versiunea [*GitHub Pages*](http://andreineculau.github.com/constitutia-romaniei) poți selecta un text și adauga un comentariu aferent selecției (e recomandat să faci comentariile doar în versiunea *ongoing*)
+* dacă ai doar de comentat, în mod public sau privat, și ai un cont [AnnotateIt][], în [ramura *develop*](http://andreineculau.github.com/constitutia-romaniei/develop.html) - poți selecta un text și adăuga un comentariu aferent selecției
 * dacă ai bunăvoința necesară, [fork](https://github.com/andreineculau/constitutia-romaniei/fork_select) & pull request (vezi [GitHub](https://help.github.com/articles/using-pull-requests/))
 
 ## [Servus][]!
