@@ -4,6 +4,7 @@ lsi: false
 pygments: true
 source: "."
 destination: ./_site
+#plugins: ./_plugins
 
 #others
 auto: true
@@ -13,10 +14,8 @@ baseurl: &base_url /constitutia-romaniei
 base_url: *base_url
 #url: http://localhost:4000
 
-#plugins: ./_plugins
-
 future: false
-markdown: maruku
+markdown: kramdown
 permalink: date
 #paginate:
 #exclude:
@@ -33,10 +32,43 @@ maruku:
 rdiscount:
   extensions: []
 
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - autolink
+    - strikethrough
+    - lax_html_blocks
+    - space_after_headers
+    - superscript
+    #- no_intraemphasis
+    #- fenced_code
+    #- gh_blockcode
+  render_options:
+    - filter_html
+    - no_images
+    - no_links
+    - no_styles
+    - safe_links_only
+    - with_toc_data
+    - hard_wrap
+    - xhtml
+
 kramdown:
-  auto_ids: true,
-  footnote_nr: 1
+  auto_id_prefix: ""
+  auto_ids: true
   entity_output: as_char
+  footnote_nr: 1
+  html_to_native: false
+  latex_headers: ["section", "subsection", "subsubsection", "paragraph", "subparagraph", "subparagraph"]
+  line_width: 72
+  parse_block_html: false
+  parse_span_html: false
+  remove_block_html_tags: true
+  remove_span_html_tags: true
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+  template: ""
   toc_levels: 1..6
   use_coderay: false
 
