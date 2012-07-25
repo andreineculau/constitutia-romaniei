@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: strap-jekyll-default
 sidebar: 0
 title: Constituția României (2003)
 ---
