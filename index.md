@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: strap-jekyll-default
 title: Constituția României
 ---
 
