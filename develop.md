@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: strap-jekyll-default
 sidebar: 1
 annotator: true
 title: Constituția României (develop)
