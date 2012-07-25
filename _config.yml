@@ -97,7 +97,7 @@ authors:
 annotator: null
 github_watch_btn: true
 github_fork_btn: true
-github_follow_btn: false
+github_follow_btn: true
 #theme.sidebar
 sidebar: null
 sidebars:
