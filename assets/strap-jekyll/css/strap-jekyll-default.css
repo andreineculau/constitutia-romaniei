@@ -21,6 +21,17 @@ body .annotator-notice {
     transition: bottom .4s ease-out!important
 }
 
+code {
+    color:#333333;
+}
+
+a > code {
+    color:#0088CC;
+}
+a:hover > code {
+    color:#005580;
+}
+
 #sidebar .sidebar-nav {
     padding:9px 0;
 }
@@ -33,6 +44,13 @@ body .annotator-notice {
     cursor:default;
 }
 
+#sidebar-toc {
+    display:none;
+}
+
+#content h2[id],
+#content h3[id],
+#content h4[id],
 #content h5[id] {
     cursor:pointer;
     padding-top:60px;

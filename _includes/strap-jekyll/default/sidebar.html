@@ -1,6 +1,11 @@
 {% if page_sidebar %}
   <div class="well sidebar-nav" id="sidebar">
+    <ul class="nav nav-list" id="sidebar-toc">
+      <li class="nav-header">{{ text.toc }}</li>
+    </ul>
     <ul class="nav nav-list">
+      <li class="divider"></li>
+      <li class="nav-header">{{ text.related }}</li>
       <li class="{% if page_sidebar.url == page.url %} active{% endif %}"><a href="{{ site.base_url }}{{ page_sidebar.url }}">{{ page_sidebar.title }}</a></li>
 
       {% for header in page_sidebar.headers %}
@@ -18,4 +23,4 @@
     </ul>
   </div><!--/.well -->
 {% endif %}
-{% include strap-jekyll/default/sidebar.footer.html %}
+{% include strap-jekyll/default/sidebar-footer.html %}
